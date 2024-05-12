@@ -1,0 +1,10 @@
+<!-- app.component.html -->
+<div class="container">
+  <div class="contact-list-container">
+    <input type="text" [(ngModel)]="searchQuery" placeholder="Search contacts..." class="search-input" />
+    <app-contact-list [contacts]="filteredContacts" (selectContact)="onSelect($event)"></app-contact-list>
+  </div>
+  <div class="contact-details-container">
+    <app-contact-details [contact]="selectedContact"></app-contact-details>
+  </div>
+</div>

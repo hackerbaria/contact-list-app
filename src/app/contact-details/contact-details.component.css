@@ -1,0 +1,11 @@
+/* contact-details.component.css */
+.contact-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-details p {
+    margin-bottom: 10px;
+  }
+  
